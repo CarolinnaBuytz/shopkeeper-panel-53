@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 import {
   LayoutDashboard,
   Package,
-  Collection,
+  Library,
   Palette,
   CreditCard,
   LogOut,
@@ -13,7 +13,7 @@ import { useAuth } from "@/contexts/AuthContext";
 const menuItems = [
   { icon: LayoutDashboard, label: "Dashboard", path: "/admin" },
   { icon: Package, label: "Produtos", path: "/admin/products" },
-  { icon: Collection, label: "Coleções", path: "/admin/collections" },
+  { icon: Library, label: "Coleções", path: "/admin/collections" },
   { icon: Palette, label: "Temas", path: "/admin/themes" },
   {
     icon: CreditCard,

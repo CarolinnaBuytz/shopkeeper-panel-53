@@ -4,6 +4,10 @@ import Products from "./admin/Products";
 import Collections from "./admin/Collections";
 import Themes from "./admin/Themes";
 import PaymentSettings from "./admin/PaymentSettings";
+import Collectibles from "./admin/Collectibles";
+import Clothing from "./admin/Clothing";
+import Games from "./admin/Games";
+import Orders from "./admin/Orders";
 
 const Admin = () => {
   return (
@@ -36,6 +40,10 @@ const Admin = () => {
           <Route path="collections" element={<Collections />} />
           <Route path="themes" element={<Themes />} />
           <Route path="payment-settings" element={<PaymentSettings />} />
+          <Route path="collectibles" element={<Collectibles />} />
+          <Route path="clothing" element={<Clothing />} />
+          <Route path="games" element={<Games />} />
+          <Route path="orders" element={<Orders />} />
         </Routes>
       </main>
     </div>
